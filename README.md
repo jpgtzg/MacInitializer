@@ -8,6 +8,7 @@ The script will install the following tools:
 - **Rust**: A systems programming language focused on safety and performance.
 - **Warp Terminal**: A modern, GPU-accelerated terminal for macOS.
 - **GitAutoInit**: A utility to automatically initialize Git repositories with a default setup.
+- **Ice**: A powerful menu bar manager for macOS
 
 ## Usage
 
