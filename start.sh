@@ -53,6 +53,10 @@ install_rust(){
 	echo "Rust Installed"
 }
 
+install_ice() {
+	brew install jordanbaird-ice
+}
+
 main_menu() {
 	echo "Select what you want to install:"
 
@@ -72,6 +76,12 @@ main_menu() {
 		install_rust
 	else 
 		echo "Skipping Rust installation"
+	fi
+
+	if prompt "Install Ice"; then
+		install_ice
+	else 
+		echo "Skipping Ice installation"
 	fi
 
     echo "Setup complete."
