@@ -92,7 +92,7 @@ main_menu() {
 		echo "Skipping Ice installation"
 	fi
 
-	if prompt "Install Notion" then
+	if prompt "Install Notion"; then
 		install_notion
 	else
 		echo "Skipping Notion Installation"
