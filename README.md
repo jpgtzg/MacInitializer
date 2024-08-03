@@ -9,6 +9,7 @@ The script will install the following tools:
 - **Warp Terminal**: A modern, GPU-accelerated terminal for macOS.
 - **GitAutoInit**: A utility to automatically initialize Git repositories with a default setup.
 - **Ice**: A powerful menu bar manager for macOS
+- **Notion**: App to write, plan, collaborate, and get organised
 
 ## Usage
 

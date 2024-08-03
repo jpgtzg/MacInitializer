@@ -59,6 +59,12 @@ install_ice() {
 	echo "Ice Installed"
 }
 
+install_notion() {
+	echo "Installing Notion"
+	brew install --cask notion
+	echo "Notion Installed"
+}
+
 main_menu() {
 	echo "Select what you want to install:"
 
@@ -84,6 +90,12 @@ main_menu() {
 		install_ice
 	else 
 		echo "Skipping Ice installation"
+	fi
+
+	if prompt "Install Notion" then
+		install_notion
+	else
+		echo "Skipping Notion Installation"
 	fi
 
     echo "Setup complete."
