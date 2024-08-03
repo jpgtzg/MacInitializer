@@ -54,7 +54,9 @@ install_rust(){
 }
 
 install_ice() {
+	echo "Installing Ice"
 	brew install jordanbaird-ice
+	echo "Ice Installed"
 }
 
 main_menu() {
