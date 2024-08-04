@@ -18,7 +18,7 @@ You can easily download and run the `MacInitializer` script using `curl`. Open y
 1. **Download the file**
 
     ```bash
-    curl -L -o macinitializer.sh https://github.com/jpgtzg/MacInitializer/raw/main/macinitializer.sh
+    curl -L -o macinitializer.sh https://raw.githubusercontent.com/jpgtzg/MacInitializer/main/start.sh
     ```
 
 2. **Make an executable**
