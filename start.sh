@@ -28,6 +28,7 @@ install_spotify_desktop(){
 install_neovim(){
 	echo "Installing Neovim"
 	brew install neovim
+	brew install ripgrep
 	echo "Neovim installed"
 }
 
