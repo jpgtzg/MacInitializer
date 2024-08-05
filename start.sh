@@ -13,6 +13,18 @@ prompt() {
     done
 }
 
+install_arc(){
+	echo "Installing Arc"
+	brew install --cask arc
+	echo "Arc Installed"
+}
+
+install_firefox(){
+	echo "Installing Firefox"
+	brew install --cask firefox
+	echo "Firefox installed"
+}
+
 install_brew(){
 	echo "Installing HomeBrew"
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -108,6 +120,18 @@ main_menu() {
 		install_discord
 	else
 		echo "Skipping Discord installation"
+	fi
+
+	if prompt "Install Arc"; then
+		install_arc
+	else 
+		echo "Skipping Arc installation"
+	fi
+
+	if prompt "Install Firefox"; then
+		install_firefox
+	else 
+		echo "Skipping Firefox installation"
 	fi
 
     echo "Setup complete."
