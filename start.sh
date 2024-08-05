@@ -65,6 +65,12 @@ install_notion() {
 	echo "Notion Installed"
 }
 
+install_discord(){
+	echo "Installing Discord"
+	brew install --cask discord
+	echo "Discord Installed"
+}
+
 main_menu() {
 	echo "Select what you want to install:"
 
@@ -95,7 +101,13 @@ main_menu() {
 	if prompt "Install Notion"; then
 		install_notion
 	else
-		echo "Skipping Notion Installation"
+		echo "Skipping Notion installation"
+	fi
+
+	if prompt "Install Discord"; then
+		install_discord
+	else
+		echo "Skipping Discord installation"
 	fi
 
     echo "Setup complete."

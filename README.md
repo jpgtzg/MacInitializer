@@ -10,6 +10,7 @@ The script will install the following tools:
 - **GitAutoInit**: A utility to automatically initialize Git repositories with a default setup.
 - **Ice**: A powerful menu bar manager for macOS
 - **Notion**: App to write, plan, collaborate, and get organised
+- **Discord**: Voice and text chat software
 
 ## Usage
 
