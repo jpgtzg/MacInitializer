@@ -14,6 +14,8 @@ The script will install the following tools:
 - **Arc**: Chromium based browser
 - **Firefox**: Web browser
 - **Flutter**: UI toolkit for building applications for mobile, web and desktop
+- **Spotify Player**: A Spotify player in the terminal with full feature parity
+- **Spotify Desktop**: Music streaming service app
 
 ## Usage
 

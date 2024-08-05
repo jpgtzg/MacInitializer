@@ -13,6 +13,18 @@ prompt() {
     done
 }
 
+install_spotify_player(){
+	echo "Installing Spotify Player"
+	brew install spotify_player
+	echo "Spotify Player"
+}
+
+install_spotify_desktop(){
+	echo "Installing Spofity Desktop"
+	brew install --cask spotify
+	echo "Spotify Desktop installed"
+}
+
 install_neovim(){
 	echo "Installing Neovim"
 	brew install neovim
@@ -156,6 +168,18 @@ main_menu() {
 		install_neovim
 	else 
 		echo "Skipping Neovim installation"
+	fi
+
+	if prompt "Install Spotify Desktop"; then
+		install_spotify_desktop
+	else 
+		echo "Skipping Spotify desktop installation"
+	fi
+
+	if prompt "Install Spotify Player"; then
+		install_spotify_player
+	else
+		echo "Skipping Spotify Player installation"
 	fi
 
     echo "Setup complete."
