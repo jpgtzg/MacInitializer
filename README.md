@@ -11,6 +11,8 @@ The script will install the following tools:
 - **Ice**: A powerful menu bar manager for macOS
 - **Notion**: App to write, plan, collaborate, and get organised
 - **Discord**: Voice and text chat software
+- **Arc**: Chromium based browser
+- **Firefox**: Web browser
 
 ## Usage
 
