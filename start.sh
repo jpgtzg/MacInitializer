@@ -13,6 +13,12 @@ prompt() {
     done
 }
 
+install_neovim(){
+	echo "Installing Neovim"
+	brew install neovim
+	echo "Neovim installed"
+}
+
 install_flutter(){
 	echo "Installing Flutter"
 	brew install --cask flutter
@@ -144,6 +150,12 @@ main_menu() {
 		install_flutter
 	else
 		echo "Skipping Flutter installation"
+	fi
+
+	if prompt "Install Neovim"; then
+		install_neovim
+	else 
+		echo "Skipping Neovim installation"
 	fi
 
     echo "Setup complete."
