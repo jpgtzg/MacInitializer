@@ -13,6 +13,12 @@ prompt() {
     done
 }
 
+install_flutter(){
+	echo "Installing Flutter"
+	brew install --cask flutter
+	echo "Flutter Installed"
+}
+
 install_arc(){
 	echo "Installing Arc"
 	brew install --cask arc
@@ -132,6 +138,12 @@ main_menu() {
 		install_firefox
 	else 
 		echo "Skipping Firefox installation"
+	fi
+
+	if prompt "Install Flutter"; then
+		install_flutter
+	else
+		echo "Skipping Flutter installation"
 	fi
 
     echo "Setup complete."

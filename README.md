@@ -13,6 +13,7 @@ The script will install the following tools:
 - **Discord**: Voice and text chat software
 - **Arc**: Chromium based browser
 - **Firefox**: Web browser
+- **Flutter**: UI toolkit for building applications for mobile, web and desktop
 
 ## Usage
 
