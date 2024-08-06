@@ -13,19 +13,6 @@ prompt() {
     done
 }
 
-install_node(){
-	echo "Installing Node"
-	brew install node
-	echo "Node Installing"
-}
-
-install_cocoapods(){
-	echo "Installing Cocoapods"
-	sudo gem install cocoapods
-	echo "Cocoapods installed"
-
-}
-
 install_spotify_player(){
 	echo "Installing Spotify Player"
 	brew install spotify_player
@@ -49,6 +36,12 @@ install_flutter(){
 	echo "Installing Flutter"
 	brew install --cask flutter
 	echo "Flutter Installed"
+}
+
+install_cocoapods(){
+	echo "Installing cocoapods"
+	sudo gem install cocoapods
+	echo "Cocoapods installed"
 }
 
 install_arc(){

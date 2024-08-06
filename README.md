@@ -16,6 +16,8 @@ The script will install the following tools:
 - **Flutter**: UI toolkit for building applications for mobile, web and desktop
 - **Spotify Player**: A Spotify player in the terminal with full feature parity
 - **Spotify Desktop**: Music streaming service app
+- **Cocoapods**: CocoaPods manages library dependencies for your Xcode projects
+- **Node**: Platform built on V8 to build network applications
 
 ## Usage
 
