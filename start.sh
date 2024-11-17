@@ -130,6 +130,11 @@ install_discord(){
 main_menu() {
 	echo "Select what you want to install:"
 
+	if prompt "Install Homebrew"; then
+		install_brew
+	else
+		echo "Skipping Homebrew installation"
+	fi
 	if prompt "Install GitAutoInit"; then
 		install_gitautoinit
 	else
