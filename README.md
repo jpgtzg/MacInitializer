@@ -18,6 +18,7 @@ The script will install the following tools:
 - **Spotify Desktop**: Music streaming service app
 - **Cocoapods**: CocoaPods manages library dependencies for your Xcode projects
 - **Node**: Platform built on V8 to build network applications
+- **Cursor** Write, edit, and chat about your code with AI
 
 ## Usage
 
