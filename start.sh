@@ -13,6 +13,12 @@ prompt() {
     done
 }
 
+install_cursor(){
+	echo "Installing Cursor"
+	brew install --cask cursor
+	echo "Cursor Installing"
+}
+
 install_node(){
 	echo "Installing Node"
 	brew install node
@@ -202,6 +208,12 @@ main_menu() {
 		echo "Skipping Cocoapods installation"
 	fi
 
+	if prompt "Install Cursor"; then
+		install_cursor
+	else
+		echo "Skipping Cursor installation"
+	fi
+   	
     echo "Setup complete."
 }
 
