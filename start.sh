@@ -98,7 +98,7 @@ install_gitautoinit() {
 	# Download GitAutoInit Script
 	sudo curl -o gitautoinit.sh https://raw.githubusercontent.com/jpgtzg/GitAutoInit/main/gitautoinit.sh
 
-	chmod +x gitautoinit.sh
+	sudo chmod +x gitautoinit.sh
 
 	echo "GitAutoInit installed"
 }
